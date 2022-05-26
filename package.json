@@ -35,6 +35,9 @@
     "bin": {
         "ic-didc": "./bins/ic-didc"
     },
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+    },
+    "devDependencies": {
+        "typescript": "^4.7.2"
+    }
 }
