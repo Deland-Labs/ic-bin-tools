@@ -1,0 +1,1 @@
+console.log("nothing there, please use execute file from bin")

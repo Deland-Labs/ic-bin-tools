@@ -1,0 +1,40 @@
+{
+    "name": "@deland-labs/ic-bin-tools",
+    "version": "0.1.0",
+    "description": "",
+    "types": "dist/src/index.d.ts",
+    "main": "dist/src/index.js",
+    "scripts": {
+        "test": "lint-staged",
+        "pack-dist": "rm -rf dist/  && npx tsc",
+        "pack-docs": "rm -rf docs/  && typedoc src/src/",
+        "build": "npm run pack-dist",
+        "prepublishOnly": "npm test  &&  npm run build",
+        "start": "npm run pack-docs  &&  open-cli docs/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Deland-Labs/ic-bin-tools.git"
+    },
+    "files": [
+        "bins",
+        "dist"
+    ],
+    "keywords": [
+        "ic"
+    ],
+    "author": "Deland-Labs",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Deland-Labs/ic-bin-tools/issues"
+    },
+    "homepage": "https://github.com/Deland-Labs/ic-bin-tools#readme",
+    "directories": {
+        "doc": "./docs"
+    },
+    "bin": {
+        "ic-didc": "./bins/ic-didc"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
