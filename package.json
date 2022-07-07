@@ -39,6 +39,6 @@
     },
     "devDependencies": {
         "typescript": "4.7.4",
-        "lint-staged": "12.5.0"
+        "lint-staged": "13.0.3"
     }
 }
