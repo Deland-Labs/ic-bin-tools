@@ -1,6 +1,6 @@
 {
     "name": "@deland-labs/ic-bin-tools",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "",
     "types": "dist/src/index.d.ts",
     "main": "dist/src/index.js",
@@ -35,10 +35,9 @@
     "bin": {
         "ic-didc": "./bins/ic-didc"
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
-        "typescript": "4.7.4",
-        "lint-staged": "13.0.3"
+        "lint-staged": "13.0.3",
+        "typescript": "4.7.4"
     }
 }
