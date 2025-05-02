@@ -1,6 +1,6 @@
 {
     "name": "@delandlabs/ic-bin-tools",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "",
     "types": "dist/src/index.d.ts",
     "main": "dist/src/index.js",
