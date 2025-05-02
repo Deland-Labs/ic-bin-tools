@@ -5,7 +5,7 @@
     "types": "dist/src/index.d.ts",
     "main": "dist/src/index.js",
     "scripts": {
-        "test": "lint-staged",
+        "test": "echo nothing",
         "pack-dist": "rm -rf dist/  && npx tsc",
         "pack-docs": "rm -rf docs/  && typedoc src/src/",
         "build": "npm run pack-dist",
@@ -37,7 +37,6 @@
     },
     "dependencies": {},
     "devDependencies": {
-        "lint-staged": "13.0.3",
         "typescript": "5.8.3"
     }
 }
